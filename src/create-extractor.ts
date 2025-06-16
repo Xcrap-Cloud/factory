@@ -18,7 +18,7 @@ export type CreateExtractorOptions = {
 
 export const extractorArgumentSeparator = ":"
 
-function getExtractor({
+export function getExtractor({
     allowedExtractors,
     extractorArguments,
     extractorKey

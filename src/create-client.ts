@@ -12,7 +12,7 @@ export type CreateClientOptions<TClients extends Record<string, ClientConstructo
     options: ConstructorParameters<TClients[keyof TClients]>[0]
 }
 
-function createClient<
+export function createClient<
     TClients extends Record<string, ClientConstructor<any>>
 >(
     {

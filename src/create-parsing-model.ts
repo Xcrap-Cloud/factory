@@ -61,7 +61,7 @@ function validateModelType(type: string, allowedModels: Record<string, ParsingMo
     }
 }
 
-function createParsingModel({
+export function createParsingModel({
     config: { allowedExtractors, allowedModels, extractorArgumentSeparator },
     model: root,
 }: CreateParsingModelOptions) {
