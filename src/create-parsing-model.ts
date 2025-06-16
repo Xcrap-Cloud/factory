@@ -90,7 +90,7 @@ function createParsingModel({
             ...(field.multiple && { multiple: true }),
             ...(field.default !== undefined && { default: field.default }),
             ...(field.nested && {
-                nested: createParsingModel({
+                model: createParsingModel({
                     model: field.nested,
                     config: {
                         allowedExtractors: allowedExtractors,
