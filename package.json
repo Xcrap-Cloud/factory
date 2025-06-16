@@ -1,6 +1,6 @@
 {
   "name": "@xcrap/factory",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Xcrap Factory is a set of utilities for dynamically creating instances of clients, extractors, and parsing models, making it easier to configure and extend scraping and parsing pipelines.",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
