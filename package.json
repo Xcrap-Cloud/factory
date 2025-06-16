@@ -1,7 +1,7 @@
 {
   "name": "@xcrap/factory",
   "version": "0.0.1",
-  "description": "",
+  "description": "Xcrap Factory is a set of utilities for dynamically creating instances of clients, extractors, and parsing models, making it easier to configure and extend scraping and parsing pipelines.",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -16,8 +16,7 @@
   "keywords": [
     "web scraping",
     "xcrap",
-    "http client",
-    "got scraping"
+    "fcatory"
   ],
   "author": "Marcuth",
   "license": "MIT",
@@ -28,15 +27,13 @@
     "@xcrap/axios-client": "^0.0.8",
     "@xcrap/core": "^0.0.10",
     "@xcrap/got-scraping-client": "^0.0.5",
+    "@xcrap/parser": "^0.0.4",
     "@xcrap/puppeteer-client": "^0.0.4",
     "@xcrap/puppeteer-extra-client": "^0.0.2",
     "jest": "^30.0.0",
     "ts-jest": "^29.4.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
-  },
-  "peerDependencies": {
-    "@xcrap/parser": "*"
   },
   "dependencies": {
     "zod": "^3.25.64"
