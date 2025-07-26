@@ -16,7 +16,7 @@ const parsingModelFieldSchema: z.ZodType<ParsingModelField> = z.lazy(() =>
         query: z.string().optional(),
         extractor: z.string().optional(),
         multiple: z.boolean().optional(),
-        default: z.union([z.string(), z.number()]).optional(),
+        default: z.union([z.string(), z.number(), z.null()]).optional(),
         nested: parsingModelSchema.optional(),
     }).superRefine((field, ctx) => {
         if (field.nested && !field.query) {
@@ -34,7 +34,7 @@ export type ParsingModelField = {
     extractor?: string
     nested?: ParsingModel
     multiple?: boolean
-    default?: string | number
+    default?: string | number | null
 }
 
 export type ParsingModelFields = Record<string, ParsingModelField>
