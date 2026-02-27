@@ -24,7 +24,7 @@
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@types/node": "^24.0.1",
-    "@xcrap/axios-client": "^0.0.8",
+    "@xcrap/axios-client": "^0.0.9",
     "@xcrap/core": "^0.0.10",
     "@xcrap/got-scraping-client": "^0.0.5",
     "@xcrap/parser": "^0.0.4",
