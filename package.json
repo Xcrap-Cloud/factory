@@ -28,7 +28,7 @@
     "@xcrap/core": "^0.0.10",
     "@xcrap/got-scraping-client": "^0.0.5",
     "@xcrap/parser": "^0.0.4",
-    "@xcrap/puppeteer-client": "^0.0.4",
+    "@xcrap/puppeteer-client": "^0.1.0",
     "@xcrap/puppeteer-extra-client": "^0.0.2",
     "jest": "^30.0.0",
     "ts-jest": "^29.4.0",
