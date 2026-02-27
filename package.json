@@ -22,7 +22,7 @@
   "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
-    "@types/jest": "^29.5.14",
+    "@types/jest": "^30.0.0",
     "@types/node": "^24.0.1",
     "@xcrap/axios-client": "^0.0.8",
     "@xcrap/core": "^0.0.10",
