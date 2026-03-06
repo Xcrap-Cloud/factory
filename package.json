@@ -23,7 +23,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@types/jest": "^30.0.0",
-    "@types/node": "^24.0.1",
+    "@types/node": "^25.3.5",
     "@xcrap/axios-client": "^0.0.9",
     "@xcrap/core": "^0.0.10",
     "@xcrap/got-scraping-client": "^0.0.5",
